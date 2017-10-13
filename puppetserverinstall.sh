@@ -10,3 +10,5 @@ sudo apt-get update
 sudo apt-get -y install puppetserver
 sudo systemctl start puppetserver
 sudo systemctl enable puppetserver
+
+export PATH="$PATH:/opt/puppetlabs/bin"
