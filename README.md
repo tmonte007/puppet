@@ -20,6 +20,9 @@ see puppetserverinstall.sh script
 ## Usage
 puppet COMMAND
 
+Puppet 5.3.2 documentation<br />
+https://puppet.com/docs/puppet/5.3/index.html<br />
+
 ## Maintainers
 
 [@tmontetweets](https://github.com/tmonte007).
