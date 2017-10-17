@@ -10,6 +10,14 @@ sudo wget https://apt.puppetlabs.com/puppet5-release-xenial.deb
 sudo dpkg -i puppet5-release-xenial.deb
 sudo apt-get update
 sudo apt-get -y install puppetserver
+sudo cat <<EOT >> /etc/puppetlabs/puppet/puppet.conf
+[main]
+certname = puppetmaster.monte.network
+server = puppetmaster.monte.network
+environment = production
+runinterval = 1h
+strict_variables = true
+EOT
 sudo systemctl start puppetserver
 sudo systemctl enable puppetserver
 
