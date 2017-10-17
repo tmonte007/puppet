@@ -22,3 +22,6 @@ sudo systemctl start puppetserver
 sudo systemctl enable puppetserver
 
 export PATH="$PATH:/opt/puppetlabs/bin"
+
+# create cert
+puppet agent --test
