@@ -1,3 +1,5 @@
+node default { }
+
 user { 'puppetadmin':
   ensure     => present,
   uid        => '1000',
