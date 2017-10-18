@@ -22,6 +22,7 @@ puppet COMMAND
 
 Puppet 5.3.2 documentation<br />
 https://puppet.com/docs/puppet/5.3/index.html<br />
+https://www.digitalocean.com/community/tutorials/getting-started-with-puppet-code-manifests-and-modules<br />
 
 ## Maintainers
 
